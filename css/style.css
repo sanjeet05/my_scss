@@ -1,0 +1,31 @@
+.h6 {
+  height: 0.375rem;
+}
+
+.min-h6 {
+  min-height: 0.375rem;
+}
+
+.h10 {
+  height: 0.625rem;
+}
+
+.min-h10 {
+  min-height: 0.625rem;
+}
+
+.h11 {
+  height: 0.688rem;
+}
+
+.min-h11 {
+  min-height: 0.688rem;
+}
+
+.h18 {
+  height: 1.125rem;
+}
+
+.min-h18 {
+  min-height: 1.125rem;
+}
