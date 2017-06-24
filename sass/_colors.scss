@@ -1,20 +1,20 @@
 // colors.scss
 
 // This is our iteratable list of key/value pairs
-$heights: (
-  6: 0.375rem,
-  10: 0.625rem,
-  11: 0.688rem,
-  18: 1.125rem
+$colors: (
+  aqua: #00c0ef,
+  red: #dd4b39,
+  green: #00a65a,
+  yellow: #f39c12
 );
 
 // We loop through our list and use the key as the name
 // and the value is used as the val.
-@each $name, $val in $heights {
-  .h#{$name} {
-    height: #{$val};
-  }
-  .min-h#{$name} {
-    min-height: #{$val};
+
+/* custom colors class starts */
+@each $name, $val in $colors {
+  .bg_#{$name} {
+    background-color: #{$val} !important;
   }
 }
+/* custom colors class ends */

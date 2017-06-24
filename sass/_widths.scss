@@ -16,12 +16,14 @@ $widths: (
 
 // We loop through our list and use the key as the name
 // and the value is used as the val.
+
+/* custom widths class starts */
 @each $name, $val in $widths {
   .width#{$name} {
     width: #{$val} !important;
   }
-  
-  .min_width#{$name} {
-    min-width: #{$val};
-  }
+  // .min_width#{$name} {
+  //   min-width: #{$val};
+  // }
 }
+/* custom widths class ends */

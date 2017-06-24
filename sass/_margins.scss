@@ -1,23 +1,40 @@
 // margins.scss
 
+// variables
+$margin-all-zero : 0px;
+
 // This is our iteratable list of key/value pairs
 $margins: (
+  0: 0px,
   5: 5px,
   10: 10px,
+  15: 15px,
   20: 20px,
+  25: 25px,
   30: 30px,
+  35: 35px,
   40: 40px,
+  45: 45px,
   50: 50px
 );
 
 // We loop through our list and use the key as the name
 // and the value is used as the val.
-@each $name, $val in $margins {
-  .margin_left#{$name} {
-    margin-left: #{$val} !important;
-  }
 
+/* custom margins class starts */
+.margin_all0 { margin: $margin-all-zero !important; }
+@each $name, $val in $margins {
+  .margin_top#{$name} {
+    margin-top: #{$val} !important;
+  }
   .margin_right#{$name} {
     margin-right: #{$val} !important;
   }
+  .margin_bottom#{$name} {
+    margin-bottom: #{$val} !important;
+  }
+  .margin_left#{$name} {
+    margin-left: #{$val} !important;
+  }
 }
+/* custom margins class ends */

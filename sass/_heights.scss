@@ -16,12 +16,14 @@ $heights: (
 
 // We loop through our list and use the key as the name
 // and the value is used as the val.
+
+/* custom heights class starts */
 @each $name, $val in $heights {
   .height#{$name} {
     height: #{$val} !important;
   }
-  
-  .min_height#{$name} {
-    min-height: #{$val};
-  }
+  // .min_height#{$name} {
+  //   min-height: #{$val};
+  // }
 }
+/* custom heights class ends */
