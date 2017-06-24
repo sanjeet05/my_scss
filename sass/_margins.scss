@@ -1,0 +1,23 @@
+// margins.scss
+
+// This is our iteratable list of key/value pairs
+$margins: (
+  5: 5px,
+  10: 10px,
+  20: 20px,
+  30: 30px,
+  40: 40px,
+  50: 50px
+);
+
+// We loop through our list and use the key as the name
+// and the value is used as the val.
+@each $name, $val in $margins {
+  .margin_left#{$name} {
+    margin-left: #{$val} !important;
+  }
+
+  .margin_right#{$name} {
+    margin-right: #{$val} !important;
+  }
+}

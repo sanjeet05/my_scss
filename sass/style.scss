@@ -1,21 +1,37 @@
-// heights.scss
+// // heights.scss
+//
+// // This is our iteratable list of key/value pairs
+// $heights: (
+//   6: 0.375rem,
+//   10: 0.625rem,
+//   11: 0.688rem,
+//   18: 1.125rem
+// );
+//
+// // We loop through our list and use the key as the name
+// // and the value is used as the val.
+// @each $name, $val in $heights {
+//   .h#{$name} {
+//     height: #{$val};
+//   }
+//
+//   .min-h#{$name} {
+//     min-height: #{$val};
+//   }
+// }
 
-// This is our iteratable list of key/value pairs
-$heights: (
-  6: 0.375rem,
-  10: 0.625rem,
-  11: 0.688rem,
-  18: 1.125rem
-);
 
-// We loop through our list and use the key as the name
-// and the value is used as the val.
-@each $name, $val in $heights {
-  .h#{$name} {
-    height: #{$val};
-  }
-
-  .min-h#{$name} {
-    min-height: #{$val};
-  }
-}
+/* generic custom style class starts */
+/* custom heights class starts */
+@import '_heights';
+/* custom heights class ends */
+/* custom widths class starts */
+@import '_widths';
+/* custom widths class ends */
+/* custom colors class starts */
+@import '_colors';
+/* custom colors class ends */
+/* custom margins class starts */
+@import '_margins';
+/* custom margins class ends */
+/* generic custom style class ends */
