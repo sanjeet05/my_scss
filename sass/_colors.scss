@@ -2,10 +2,18 @@
 
 // This is our iteratable list of key/value pairs
 $colors: (
+  white: #ffffff,
+  black: #000000
+);
+
+$bg_colors: (
+  white: #ffffff,
   aqua: #00c0ef,
   red: #dd4b39,
   green: #00a65a,
-  yellow: #f39c12
+  yellow: #f39c12,
+  gray: #808080,
+  lightgray: #d3d3d3
 );
 
 // We loop through our list and use the key as the name
@@ -13,6 +21,11 @@ $colors: (
 
 /* custom colors class starts */
 @each $name, $val in $colors {
+  .color_#{$name} {
+    color: #{$val} !important;
+  }
+}
+@each $name, $val in $bg_colors {
   .bg_#{$name} {
     background-color: #{$val} !important;
   }

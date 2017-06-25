@@ -1,8 +1,5 @@
 // paddings.scss
 
-// variables
-$padding-all-zero : 0px;
-
 // This is our iteratable list of key/value pairs
 $paddings: (
   0: 0px,
@@ -18,11 +15,23 @@ $paddings: (
   50: 50px
 );
 
+$paddings_all: (
+  0: 0px,
+  5: 5px,
+  10: 10px,
+  15: 15px,
+  20: 20px
+);
+
 // We loop through our list and use the key as the name
 // and the value is used as the val.
 
 /* custom paddings class starts */
-.padding_all0 {padding: $padding-all-zero !important;}
+@each $name, $val in $paddings_all {
+  .padding#{$name} {
+    padding: #{$val} !important;
+  }
+}
 @each $name, $val in $paddings {
   .padding_top#{$name} {
     padding-top: #{$val} !important;

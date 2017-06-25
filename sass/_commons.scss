@@ -1,0 +1,11 @@
+// common.scss
+
+// variables
+$opacity87: 0.87;
+$opacity54: 0.54;
+
+/* custom common class starts */
+.opacity87{ opacity: $opacity87 !important; }
+.opacity54{ opacity: $opacity54 !important; }
+.tag { display: inline-block; font-size: 13px !important; }
+/* custom common class ends */

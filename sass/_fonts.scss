@@ -1,0 +1,24 @@
+// fonts.scss
+
+// This is our iteratable list of key/value pairs
+$fonts: (
+  12: 12px,
+  14: 14px,
+  15: 15px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  22: 22px,
+  24: 24px
+);
+
+// We loop through our list and use the key as the name
+// and the value is used as the val.
+
+/* custom fonts class starts */
+@each $name, $val in $fonts {
+  .font#{$name} {
+    font-size: #{$val} !important;
+  }
+}
+/* custom fonts class ends */

@@ -84,6 +84,18 @@
 
 /* custom widths class ends */
 /* custom colors class starts */
+.color_white {
+  color: #ffffff !important;
+}
+
+.color_black {
+  color: #000000 !important;
+}
+
+.bg_white {
+  background-color: #ffffff !important;
+}
+
 .bg_aqua {
   background-color: #00c0ef !important;
 }
@@ -100,10 +112,34 @@
   background-color: #f39c12 !important;
 }
 
+.bg_gray {
+  background-color: #808080 !important;
+}
+
+.bg_lightgray {
+  background-color: #d3d3d3 !important;
+}
+
 /* custom colors class ends */
 /* custom margins class starts */
-.margin_all0 {
+.margin0 {
   margin: 0px !important;
+}
+
+.margin5 {
+  margin: 5px !important;
+}
+
+.margin10 {
+  margin: 10px !important;
+}
+
+.margin15 {
+  margin: 15px !important;
+}
+
+.margin20 {
+  margin: 20px !important;
 }
 
 .margin_top0 {
@@ -284,8 +320,24 @@
 
 /* custom margins class ends */
 /* custom paddings class starts */
-.padding_all0 {
+.padding0 {
   padding: 0px !important;
+}
+
+.padding5 {
+  padding: 5px !important;
+}
+
+.padding10 {
+  padding: 10px !important;
+}
+
+.padding15 {
+  padding: 15px !important;
+}
+
+.padding20 {
+  padding: 20px !important;
 }
 
 .padding_top0 {
@@ -465,4 +517,53 @@
 }
 
 /* custom paddings class ends */
+/* custom fonts class starts */
+.font12 {
+  font-size: 12px !important;
+}
+
+.font14 {
+  font-size: 14px !important;
+}
+
+.font15 {
+  font-size: 15px !important;
+}
+
+.font16 {
+  font-size: 16px !important;
+}
+
+.font18 {
+  font-size: 18px !important;
+}
+
+.font20 {
+  font-size: 20px !important;
+}
+
+.font22 {
+  font-size: 22px !important;
+}
+
+.font24 {
+  font-size: 24px !important;
+}
+
+/* custom fonts class ends */
+/* custom common class starts */
+.opacity87 {
+  opacity: 0.87 !important;
+}
+
+.opacity54 {
+  opacity: 0.54 !important;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px !important;
+}
+
+/* custom common class ends */
 /* generic custom style class ends */
