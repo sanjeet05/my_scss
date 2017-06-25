@@ -8,4 +8,7 @@ $opacity54: 0.54;
 .opacity87{ opacity: $opacity87 !important; }
 .opacity54{ opacity: $opacity54 !important; }
 .tag { display: inline-block; font-size: 13px !important; }
+.no_space{white-space: nowrap !important;}
+.error_text {color: #DD4B39 !important;}
+.one_line_text{overflow: hidden !important; white-space: nowrap !important; text-overflow: ellipsis !important;}
 /* custom common class ends */
