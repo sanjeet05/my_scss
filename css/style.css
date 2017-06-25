@@ -565,12 +565,8 @@
   font-size: 13px !important;
 }
 
-.no_space {
-  white-space: nowrap !important;
-}
-
 .error_text {
-  color: #DD4B39 !important;
+  color: #dd4b39 !important;
 }
 
 .one_line_text {
