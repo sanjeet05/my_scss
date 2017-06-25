@@ -1,0 +1,26 @@
+// borderRadius.scss
+
+// like function
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// This is our iteratable list of key/value pairs
+$borderRadius: (
+  5: 5px,
+  10: 10px
+);
+
+// We loop through our list and use the key as the name
+// and the value is used as the val.
+
+/* custom border-radius class starts */
+@each $name, $val in $borderRadius {
+  .border_radius#{$name} {
+    @include border-radius($val) ;
+  }
+}
+/* custom border-radius class ends */

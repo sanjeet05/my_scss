@@ -42,16 +42,32 @@
 
 /* custom heights class ends */
 /* custom widths class starts */
+.width5 {
+  width: 5% !important;
+}
+
 .width10 {
   width: 10% !important;
+}
+
+.width15 {
+  width: 15% !important;
 }
 
 .width20 {
   width: 20% !important;
 }
 
+.width25 {
+  width: 25% !important;
+}
+
 .width30 {
   width: 30% !important;
+}
+
+.width35 {
+  width: 35% !important;
 }
 
 .width40 {
@@ -68,6 +84,10 @@
 
 .width70 {
   width: 70% !important;
+}
+
+.width75 {
+  width: 75% !important;
 }
 
 .width80 {
@@ -551,6 +571,22 @@
 }
 
 /* custom fonts class ends */
+/* custom border-radius class starts */
+.border_radius5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.border_radius10 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* custom border-radius class ends */
 /* custom common class starts */
 .opacity87 {
   opacity: 0.87 !important;
@@ -573,6 +609,11 @@
   overflow: hidden !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
+}
+
+.line_separator {
+  border-bottom: 1px solid #cccccc !important;
+  padding: 5px 0;
 }
 
 /* custom common class ends */
